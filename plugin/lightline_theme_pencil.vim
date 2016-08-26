@@ -9,7 +9,7 @@ let s:olive = '#EBBF7E'
 let s:red = '#BB5654'
 
 let s:foreground = '#767676'
-let s:background = '#f1f1f1'
+let s:background = '#E5E6E6'
 let s:status = s:background
 let s:error = s:red
 
