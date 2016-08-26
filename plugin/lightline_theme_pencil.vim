@@ -15,9 +15,9 @@ let s:error = s:red
 
 " Tabline:
 let s:tabline_bg = s:background
-let s:tabline_active_fg = s:foreground
+let s:tabline_active_fg = s:background
 let s:tabline_active_bg = s:blue
-let s:tabline_inactive_fg = s:background
+let s:tabline_inactive_fg = s:foreground
 let s:tabline_inactive_bg = s:background
 
 " Statusline:
