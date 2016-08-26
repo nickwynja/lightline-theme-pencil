@@ -1,3 +1,7 @@
+" Location:   plugin/lightline_theme_pencil.vim
+" Maintainer: Mikkel Malmberg <http://mikker.sexy/>
+" Version:    0.1
+
 let s:blue = '#008AD5'
 let s:green = '#15B09D'
 let s:pink = '#D6367F'
