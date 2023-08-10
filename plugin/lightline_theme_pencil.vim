@@ -2,14 +2,24 @@
 " Maintainer: Mikkel Malmberg <http://mikker.sexy/>
 " Version:    0.1
 
+let s:g_background = &background
+
 let s:blue = '#008AD5'
 let s:green = '#15B09D'
 let s:pink = '#D6367F'
 let s:olive = '#EBBF7E'
 let s:red = '#BB5654'
 
-let s:foreground = '#767676'
-let s:background = '#E5E6E6'
+if s:g_background == "dark"
+    let s:background = '#414141'
+    let s:foreground = '#E5E6E6'
+    let s:tabline_active_fg = s:foreground
+else
+    let s:foreground = '#767676'
+    let s:background = '#E5E6E6'
+    let s:tabline_active_fg = s:background
+endif
+
 let s:status = s:background
 let s:error = s:red
 
